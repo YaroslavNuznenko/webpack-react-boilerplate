@@ -1,0 +1,28 @@
+{
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parser": "babel-eslint", 
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "rules": {
+        "react/no-did-update-set-state": 0,
+        "react/no-did-mount-set-state": 0,
+        "react/require-default-props": 0,
+        "react/jsx-handler-names": 0,
+        "func-style": 0,
+        "more/no-window": 0,
+        "no-console": "off",
+        "no-undef": 0,
+        "react/jsx-closing-tag-location": 0,
+        "react/jsx-closing-bracket-location": 0
+    }
+}
